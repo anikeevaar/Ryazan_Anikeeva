@@ -32,7 +32,6 @@ class MyWidget(QMainWindow):
         qp.setBrush(QColor(255, 255, 0))
         qp.drawEllipse(x, y, r, r)
 
-        # Имя элемента совпадает с objectName в QTDesigner
 
 
 if __name__ == '__main__':
